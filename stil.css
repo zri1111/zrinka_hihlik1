@@ -1,0 +1,117 @@
+/* Osnovni stil tijela stranice */
+body {
+  background-color: #121212;
+  background-image: url('Slike/pozadina (2).jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #f0f0f0;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+
+@font-face {
+    font-family: "ZrinkaHihlik";
+    src:url("ZrinkaHihlik.ttf");
+	}
+
+/* Naslovi */
+h1 {
+	font-family: 'ZrinkaHihlik', ZrinkaHihlik;
+  font-size: 2.5em;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+h2 {
+  font-size: 1.8em;
+  margin-bottom: 30px;
+  color: #dddddd;
+}
+
+h3 {
+  font-size: 1.4em;
+  margin-top: 30px;
+  color: #e0e0e0;
+}
+
+/* Paragrafi */
+p {
+  max-width: 800px;
+  margin: 10px auto 30px auto;
+  line-height: 1.6;
+  font-size: 1.1em;
+}
+
+/* Navigacija - horizontalna lista s tamnim kvadratićima */
+nav {
+  margin-bottom: 40px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+nav li {
+  margin: 0;
+}
+
+nav a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Slike i video */
+img, video {
+  display: block;
+  max-width: 600px;
+  width: 100%;
+  height: auto;
+  margin: 20px auto;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+}
+
+/* Svaka vježba kao odvojena cjelina */
+section {
+  max-width: 900px;
+  padding: 30px;
+  margin: 40px auto;
+  background-color: #1e1e1e;
+  border-radius: 12px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+}
+
+/* Liste */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+  font-size: 1.1em;
+}
